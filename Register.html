@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration</title>
+    <link rel="stylesheet" href="Register.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body style="background-color: rgb(178, 238, 220);">
+
+
+    <ul class="nav nav-tabs" style="background-color: rgb(172, 192, 236);">
+      <li class="nav-item">
+        <a class="nav-link" href="index.php">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Register.html">Registration</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Login.html">Login</a>
+      </li>
+    </ul>
+
+
+    <div class="text-center" style="background-color: rgb(178, 238, 220);">
+      <img src="gpm.png" class="rounded">
+      <h1>Technical Event</h1>
+<hr>
+    </div>
+  
+
+    <form action="Registration.php" method="post">
+      <div class="container">
+        <h2>Registration Form</h2>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+
+        <label for="firstname"><b>First Name</b></label>
+        <input type="text" placeholder="Enter First Name" name="firstname" id="firstname" required>
+
+        <label for="lastname"><b>Last Name</b></label>
+        <input type="text" placeholder="Enter Last Name" name="lastname" id="lastname" required>
+
+        <label for="collegename"><b>College Name</b></label>
+        <input type="text" placeholder="Enter College Name" name="collegename" id="collegename" required>
+
+        <label for="collegeid"><b>College ID</b></label>
+        <input type="text" placeholder="Enter College ID" name="collegeid" id="collegeid" required>
+
+        <label for="mobileno"><b>Mobile No</b></label>
+        <input type="text" placeholder="Enter Mobile No" name="mobileno" id="mobileno" required>
+
+    
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+    
+        <label for="psw-repeat"><b>Confirm Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+        <hr>
+    
+        <button type="submit" name="registerbtn" class="registerbtn">Register</button>
+      </div>
+    
+      <div class="container signin" style="background-color:  rgb(178, 238, 220);">
+        <p>Already have an account? <a href="Login.html">Sign in</a>.</p>
+      </div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  </body>
+</html>
